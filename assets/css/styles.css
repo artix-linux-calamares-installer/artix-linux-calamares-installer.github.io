@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-top {
+  padding: 20px 0;
+  background-color: #1a1b26;
+  color: #a9b1d6;
+}
+
+.nav-top ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.nav-top li {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.nav-top ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.nav-top ul a:hover {
+  opacity: 1;
+}
+
+.info-section {
+  color: #a9b1d6;
+  background-color: #24283b;
+  padding: 50px 0;
+}
+
+.info-section p {
+  color: #c4d5ef;
+  line-height: 1.5;
+}
+
+.info-section button {
+  color: #c4d5ef;
+  background-color: red;
+  outline: none;
+  border: none;
+  border-radius: 0.7rem;
+  padding: 10px;
+}
+
+.info-section h2 {
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  color: inherit;
+}
+
+.info-section .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.info-section img {
+  border: none;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.flavours {
+  background-color: #1a1b26;
+}
+
+.flavours p {
+  color: #c4d5ef;
+}
+
+.flavours h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: #a9b1d6;
+}
+
+.flavours .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.flavours .intro p {
+  margin-bottom: 0;
+}
+
+.flavours .flavours {
+  padding: 50px 0;
+}
+
+.flavours .item {
+  text-align: center;
+}
+
+.flavours .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #414868;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 1rem;
+}
+
+.flavours .item .name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: #c0caf5;
+}
+
+.flavours .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.flavours a {
+  text-decoration: none;
+  color: #bb9af7;
+}
+
+@media (max-width: 767px) {
+  .flavours h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.footer {
+  padding: 40px 0;
+  background-color: #24283b;
+  color: #dfdfdf;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer li {
+  padding: 0 10px;
+}
+
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul a:hover {
+  opacity: 1;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1b26;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #414868;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #454d70;
+}

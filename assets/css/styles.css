@@ -2,6 +2,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #24283b;
 }
 
 .nav-top {
@@ -43,15 +44,6 @@ body {
 .info-section p {
   color: #c4d5ef;
   line-height: 1.5;
-}
-
-.info-section button {
-  color: #c4d5ef;
-  background-color: red;
-  outline: none;
-  border: none;
-  border-radius: 0.7rem;
-  padding: 10px;
 }
 
 .info-section h2 {
@@ -114,6 +106,7 @@ body {
   background-color: #414868;
   margin-bottom: 30px;
   border: none;
+  height: 90%;
   border-radius: 1rem;
 }
 

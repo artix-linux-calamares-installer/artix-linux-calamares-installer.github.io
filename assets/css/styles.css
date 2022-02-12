@@ -46,6 +46,12 @@ body {
   line-height: 1.5;
 }
 
+.info-section a {
+  color: #c4d5ef;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 .info-section h2 {
   font-weight: bold;
   margin-bottom: 25px;

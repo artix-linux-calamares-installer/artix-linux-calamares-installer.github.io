@@ -160,6 +160,7 @@ body {
 
 .footer li {
   padding: 0 10px;
+  font-weight: bold;
 }
 
 .footer ul a {
@@ -170,6 +171,11 @@ body {
 
 .footer ul a:hover {
   opacity: 1;
+}
+
+.footer .bottom-text {
+  padding: 10px;
+  font-size: 0.9em;
 }
 
 ::-webkit-scrollbar {
